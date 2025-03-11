@@ -1,0 +1,13 @@
+emotion_model,classifier_type,train_accuracy,test_accuracy,overfitting_ratio
+quadrant,random_forest,1.0,1.0,1.0
+quadrant,svm,1.0,1.0,1.0
+quadrant,mlp,1.0,1.0,1.0
+custom,random_forest,1.0,1.0,1.0
+custom,svm,1.0,1.0,1.0
+custom,mlp,0.9978142076502732,1.0,0.9978142076502732
+plutchik,random_forest,1.0,1.0,1.0
+plutchik,svm,1.0,1.0,1.0
+plutchik,mlp,1.0,1.0,1.0
+ekman,random_forest,1.0,1.0,1.0
+ekman,svm,1.0,1.0,1.0
+ekman,mlp,1.0,1.0,1.0

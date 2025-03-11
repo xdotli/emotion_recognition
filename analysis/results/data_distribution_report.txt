@@ -1,0 +1,68 @@
+VAD Value Statistics:
+====================
+
+Valence statistics:
+  Mean: 0.5398
+  Std: 0.2379
+  Min: 0.0000
+  25%: 0.5000
+  Median: 0.5000
+  75%: 0.7500
+  Max: 1.0000
+
+Activation statistics:
+  Mean: 0.5127
+  Std: 0.2402
+  Min: 0.0000
+  25%: 0.2500
+  Median: 0.5000
+  75%: 0.7500
+  Max: 1.0000
+
+Dominance statistics:
+  Mean: 0.4773
+  Std: 0.2604
+  Min: 0.0000
+  25%: 0.2500
+  Median: 0.5000
+  75%: 0.7500
+  Max: 1.0000
+
+
+Emotion Distributions:
+====================
+
+Quadrant emotion distribution:
+  happy: 674 (58.92%)
+  calm: 200 (17.48%)
+  angry: 152 (13.29%)
+  sad: 118 (10.31%)
+
+Custom emotion distribution:
+  neutral: 373 (32.60%)
+  happy: 327 (28.58%)
+  content: 143 (12.50%)
+  excited: 139 (12.15%)
+  sad: 118 (10.31%)
+  afraid: 42 (3.67%)
+  angry: 2 (0.17%)
+
+Plutchik emotion distribution:
+  neutral: 832 (72.73%)
+  anticipation: 108 (9.44%)
+  trust: 70 (6.12%)
+  disgust: 56 (4.90%)
+  fear: 42 (3.67%)
+  joy: 24 (2.10%)
+  surprise: 5 (0.44%)
+  sadness: 5 (0.44%)
+  anger: 2 (0.17%)
+
+Ekman emotion distribution:
+  neutral: 535 (46.77%)
+  happiness: 309 (27.01%)
+  surprise: 138 (12.06%)
+  sadness: 118 (10.31%)
+  fear: 42 (3.67%)
+  anger: 2 (0.17%)
+

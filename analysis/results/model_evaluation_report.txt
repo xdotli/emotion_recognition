@@ -1,0 +1,89 @@
+Model Evaluation Report
+=====================
+
+Summary of Results:
+-----------------
+
+Emotion model: QUADRANT, Classifier: RANDOM_FOREST
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: QUADRANT, Classifier: SVM
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: QUADRANT, Classifier: MLP
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: CUSTOM, Classifier: RANDOM_FOREST
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: CUSTOM, Classifier: SVM
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: CUSTOM, Classifier: MLP
+  Train Accuracy: 0.9978
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 0.9978
+
+Emotion model: PLUTCHIK, Classifier: RANDOM_FOREST
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: PLUTCHIK, Classifier: SVM
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: PLUTCHIK, Classifier: MLP
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: EKMAN, Classifier: RANDOM_FOREST
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: EKMAN, Classifier: SVM
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+Emotion model: EKMAN, Classifier: MLP
+  Train Accuracy: 1.0000
+  Test Accuracy: 1.0000
+  Overfitting Ratio: 1.0000
+
+
+Analysis of Overfitting:
+----------------------
+
+Average Overfitting Ratio: 0.9998
+
+The models do not show significant signs of overfitting based on accuracy metrics alone.
+
+However, the extremely high accuracy (near 100%) across all models suggests other issues:
+
+1. The task may be too simple or deterministic (e.g., rule-based mapping from VAD to emotions)
+2. There may be data leakage between training and testing sets
+3. The evaluation methodology may not be robust (e.g., using the same data for training and evaluation)
+4. The features (VAD values) may perfectly separate the emotion classes by design
+
+Recommendations:
+--------------
+
+1. Implement proper cross-validation with stratified sampling
+2. Use a separate holdout test set that is never seen during training
+3. Investigate the relationship between VAD values and emotion labels to understand if the mapping is deterministic
+4. If using text modality, ensure actual text data is used rather than placeholders
+5. Consider more challenging evaluation scenarios, such as cross-dataset evaluation
