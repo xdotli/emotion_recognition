@@ -7,18 +7,18 @@
 - [x] Understand VAD tuple approach
 - [x] Examine model architecture
 - [x] Investigate data preprocessing
-- [ ] Analyze training process
-- [ ] Evaluate model performance metrics
-- [ ] Check for overfitting signs
+- [x] Analyze training process
+- [x] Evaluate model performance metrics
+- [x] Check for overfitting signs
 
 ## Implementation Tasks
-- [ ] Implement cross-validation
-- [ ] Modify model parameters
-- [ ] Test model with new parameters
-- [ ] Compare results with original
+- [x] Implement cross-validation
+- [x] Modify model parameters
+- [x] Test model with new parameters
+- [x] Compare results with original
 
 ## Research and Documentation
-- [ ] Research similar approaches
-- [ ] Document findings and recommendations
-- [ ] Commit and push changes
-- [ ] Prepare final report
+- [x] Research similar approaches
+- [x] Document findings and recommendations
+- [x] Commit and push changes
+- [x] Prepare final report
