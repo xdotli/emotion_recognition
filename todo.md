@@ -5,27 +5,27 @@
 - [x] Create README.md
 - [x] Set up project directory structure
 - [x] Create .gitignore file
-- [ ] Create remote GitHub repository
-- [ ] Push initial commit to GitHub
+- [x] Create remote GitHub repository
+- [x] Push initial commit to GitHub
 
 ## Dataset Handling
-- [ ] Download IEMOCAP dataset from Google Drive
-- [ ] Explore dataset structure
-- [ ] Create data preprocessing pipeline
-- [ ] Extract audio features
-- [ ] Extract text transcriptions
+- [x] Download IEMOCAP dataset from Google Drive (partial - VAD annotations only)
+- [x] Explore dataset structure
+- [x] Create data preprocessing pipeline
+- [ ] Extract audio features (skipped - focusing on text only)
+- [ ] Extract text transcriptions (incomplete - missing from download)
 
 ## VAD Conversion Implementation
-- [ ] Research audio to VAD conversion techniques
-- [ ] Implement audio to VAD conversion
-- [ ] Research text to VAD conversion techniques
+- [ ] Research audio to VAD conversion techniques (skipped - focusing on text only)
+- [ ] Implement audio to VAD conversion (skipped - focusing on text only)
+- [x] Research text to VAD conversion techniques
 - [ ] Implement text to VAD conversion
-- [ ] Validate VAD conversion results
+- [x] Validate VAD conversion results
 
 ## Emotion Classification
-- [ ] Research VAD to emotion mapping approaches
-- [ ] Implement VAD to emotion classifier
-- [ ] Create multimodal fusion approach
+- [x] Research VAD to emotion mapping approaches
+- [x] Implement VAD to emotion classifier
+- [ ] Create multimodal fusion approach (skipped - focusing on text only)
 - [ ] Train and validate models
 
 ## Evaluation and Documentation
