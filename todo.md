@@ -1,37 +1,24 @@
-# Emotion Recognition Project Todo List
+# Emotion Recognition IEMOCAP Analysis Todo
 
-## Repository Setup
-- [x] Initialize local Git repository
-- [x] Create README.md
-- [x] Set up project directory structure
-- [x] Create .gitignore file
-- [x] Create remote GitHub repository
-- [x] Push initial commit to GitHub
+## Investigation Tasks
+- [x] Clone GitHub repository
+- [x] Explore repository structure
+- [x] Analyze code implementation
+- [x] Understand VAD tuple approach
+- [x] Examine model architecture
+- [x] Investigate data preprocessing
+- [ ] Analyze training process
+- [ ] Evaluate model performance metrics
+- [ ] Check for overfitting signs
 
-## Dataset Handling
-- [x] Download IEMOCAP dataset from Google Drive (partial - VAD annotations only)
-- [x] Explore dataset structure
-- [x] Create data preprocessing pipeline
-- [ ] Extract audio features (skipped - focusing on text only)
-- [ ] Extract text transcriptions (incomplete - missing from download)
+## Implementation Tasks
+- [ ] Implement cross-validation
+- [ ] Modify model parameters
+- [ ] Test model with new parameters
+- [ ] Compare results with original
 
-## VAD Conversion Implementation
-- [ ] Research audio to VAD conversion techniques (skipped - focusing on text only)
-- [ ] Implement audio to VAD conversion (skipped - focusing on text only)
-- [x] Research text to VAD conversion techniques
-- [x] Implement text to VAD conversion
-- [x] Validate VAD conversion results
-
-## Emotion Classification
-- [x] Research VAD to emotion mapping approaches
-- [x] Implement VAD to emotion classifier
-- [ ] Create multimodal fusion approach (skipped - focusing on text only)
-- [x] Train and validate models
-
-## Evaluation and Documentation
-- [ ] Evaluate model performance
-- [ ] Create visualizations of results
-- [ ] Document methodology and findings
-- [ ] Update README with usage instructions
-- [ ] Refactor code for readability
-- [ ] Final code review and cleanup
+## Research and Documentation
+- [ ] Research similar approaches
+- [ ] Document findings and recommendations
+- [ ] Commit and push changes
+- [ ] Prepare final report
